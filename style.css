@@ -1,0 +1,59 @@
+body {
+  background-color: #FEFEFE;
+}
+h1 {
+  color:rgb(185,215,204);
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  font-size:5em;
+  letter-spacing: .25em;
+
+}
+.link_link {
+  display:inline;
+  line-height: 4em;
+  letter-spacing: .05em;
+  word-spacing: 4em;
+
+}
+a {
+  color:rgb(185,215,204);
+  text-decoration: none;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  font-size: 2em;
+}
+a:hover {
+  color:#81968e;
+  text-decoration: none;
+}
+
+#homePagePicture {
+  background-image:url(https://images.unsplash.com/photo-1449452514032-f1eba6007f52?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c77691c9e165fad05b5438e82219481d);
+  background-position:center;
+  background-size:100% auto;
+  top: 16em;
+  left: 0;
+  bottom: 20em;;
+  right: 0;
+  position: absolute;
+}
+
+#aboutSection{
+margin-top:25em;
+}
+
+p {
+color:#6e6e6e;
+font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+font-size: 1.1em;
+}
+
+#projectSection {
+/*margin-top:50em;*/
+}
+
+h4 {
+  color:#6e6e6e;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  font-size: 1.1em;
+}

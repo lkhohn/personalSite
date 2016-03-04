@@ -9,12 +9,80 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-  <h1>Lindsay K. Hohn</h1>
+  <body  ng-app="app" ng-controller="MainController as MC">
+
+
+
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <h1>LINDSAY K. HOHN</h1>
+      <img src="Picture1.png" alt="arrow">
+    <div class="col-md-1"></div>
+  </div>
+
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="navigation">
+      <span id="autopagination_wrapper">
+
+        <div class="link_link">
+          <a target="" href="index.html">
+            home
+          </a>
+        </div>
+
+        <div class="link_link">
+          <a target="" href="info.html">
+            about
+          </a>
+        </div>
+
+        <div class="link_link">
+          <a target="" href="projects.html">
+            projects
+          </a>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+<div class="row" id="homePagePicture"></div>
+
+<div class="row" id="aboutSection">
+  <div class="container">
+    <p>
+    Lindsay makes dynamic and responsive apps with beautiful design and a seamless user experience. She especially enjoys problem solving and never shies away from a challenge. Lindsay is passionate about web development because it marries both analytic and creative thought, perfect for her background in Biochemistry and her many Pinterest home projects. She is especially keen on creating applications that positively impact her community.
+    <br>
+    <br>
+    Lindsay enjoys taking advantage of Colorado’s many amazing outdoor activities, including hiking, camping, skiing and horseback riding. When she isn’t coding, Lindsay is volunteering to promote women in technology as co-director of Women Who Code Fort Collins. On the weekends, she can be found at a local craft brewery enjoying a beer with family, friends and her yellow lab Banjo.
+    </p>
+  </div>
+</div>
+
+<div class="row" id="projectSection">
+  <div class="container">
+  </div>
+</div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+    <script src='app.js'></script>
+    <script src='blueItController.js'></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   </body>
 </html>
