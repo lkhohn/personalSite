@@ -1,4 +1,4 @@
-body {
+body, .panel-footer {
   background-color: #FEFEFE;
 }
 h1 {
@@ -64,13 +64,14 @@ font-size: 1.1em;
 
 #wrapper {
 position: relative;
+/*padding-left:5em;*/
 }
 
 #wrapper .glyphicon {
 position: absolute;
 width:2em;
 height:2em;
-margin-left:10em;
+margin-left:8.7em;
 }
 
 .glyphicon {
@@ -84,4 +85,10 @@ font-style: normal;
 
 #experienceSection {
   margin-top:4em;
+}
+
+i {
+padding-top:1em;
+padding-left:2em;
+padding-bottom:2em;
 }
