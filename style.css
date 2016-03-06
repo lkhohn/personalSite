@@ -27,6 +27,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 #homePagePicture {
   background-image:url(https://images.unsplash.com/photo-1449452514032-f1eba6007f52?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c77691c9e165fad05b5438e82219481d);
   background-position:center;
@@ -50,11 +51,6 @@ font-size: 1.1em;
 }
 
 
-#projectSection {
-margin-top:6em;
-margin-left:8em;
-margin-bottom:6em;
-}
 
 h4 {
 color:#6e6e6e;
@@ -62,16 +58,24 @@ font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGo
 font-size: 1.1em;
 }
 
+#projectSection {
+margin-top:4em;
+/*margin-bottom:3em;*/
+}
+
 #wrapper {
-position: relative;
-/*padding-left:5em;*/
+/*position: relative;*/
+padding-left:1em;
+width: 27em;
+height: 20em;
+overflow: auto;
 }
 
 #wrapper .glyphicon {
 position: absolute;
 width:2em;
 height:2em;
-margin-left:8.7em;
+margin-left:10.25em;
 }
 
 .glyphicon {
@@ -85,10 +89,11 @@ font-style: normal;
 
 #experienceSection {
   margin-top:4em;
+  margin-bottom:2em;
 }
 
 i {
-padding-top:1em;
-padding-left:2em;
-padding-bottom:2em;
+margin-top:1em;
+margin-bottom:2em;
+margin-left:1em;
 }
