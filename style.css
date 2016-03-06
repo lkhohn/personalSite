@@ -7,14 +7,12 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-size:5em;
   letter-spacing: .25em;
-
 }
 .link_link {
   display:inline;
   line-height: 4em;
   letter-spacing: .05em;
-  word-spacing: 4em;
-
+  word-spacing: 5em;
 }
 a {
   color:rgb(185,215,204);
@@ -31,16 +29,15 @@ a:hover {
 #homePagePicture {
   background-image:url(https://images.unsplash.com/photo-1449452514032-f1eba6007f52?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c77691c9e165fad05b5438e82219481d);
   background-position:center;
-  background-size:100% auto;
-  top: 16em;
-  left: 0;
-  bottom: 20em;
-  right: 0;
-  position: absolute;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  margin-top:2em;
+  margin-bottom:2em;
 }
 
 #aboutSection{
-margin-top:25em;
+margin-top:2em;
 margin-bottom:4em;
 }
 
@@ -64,7 +61,7 @@ margin-top:4em;
 }
 
 #wrapper {
-/*position: relative;*/
+position: relative;
 padding-left:1em;
 width: 27em;
 height: 20em;
@@ -87,7 +84,7 @@ font-style: normal;
 }
 
 
-#experienceSection {
+#resumeSection {
   margin-top:4em;
   margin-bottom:2em;
 }
@@ -96,4 +93,120 @@ i {
 margin-top:1em;
 margin-bottom:2em;
 margin-left:1em;
+}
+
+/*@media screen and (max-width: 780px) {
+.nameHeader {
+    font-size:2.5em;
+}
+.arrowPictureImage {
+  max-width:100%;
+}
+.link_link{
+  line-height: 2em;
+  word-spacing:2em;
+}
+#aboutSection, #resumeSection, .container {
+  margin-left:0.5em;
+  margin-right:0.5em;
+}
+}*/
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .nameHeader {
+      font-size:2em;
+    }
+    .arrowPictureImage {
+      max-width:100%;
+    }
+    .link_link{
+      line-height: 1em;
+      padding-left:1em;
+      word-spacing:2em;
+      font-size:0.75em;
+    }
+    #aboutSection, #resumeSection, .container {
+      margin-left:0.5em;
+      margin-right:0.5em;
+    }
+    i {
+      margin-left:0.5em;
+    }
+    #wrapper {
+      max-width: 100%;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .link_link{
+      line-height: 1em;
+      padding-left:1em;
+      word-spacing:4em;
+      font-size:0.75em;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    i {
+      margin-left:1em;
+    }
+}
+
+/* ----------- Galaxy S4 & S5 ----------- */
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+}
+
+/* ----------- iPad mini, iPad 1 and 2, iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .nameHeader {
+        font-size:2.5em;
+    }
+    .arrowPictureImage {
+      max-width:100%;
+    }
+    .link_link{
+      line-height: 2em;
+      padding-left:6em;
+      word-spacing:2em;
+    }
+    #aboutSection, #resumeSection, .container {
+      margin-left:0.5em;
+      margin-right:0.5em;
+    }
+    #wrapper {
+      margin-left:10em;
+    }
+    i {
+      margin-left:2em;
+    }
 }
