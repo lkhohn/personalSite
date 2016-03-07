@@ -7,7 +7,7 @@
     vm.scrollProjects = scrollProjects;
     vm.scrollResume = scrollResume;
     function scrollAbout(){
-      $location.hash('aboutSection');
+      $location.hash('aboutScrollSection');
       $anchorScroll();
     }
     function scrollProjects(){
