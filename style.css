@@ -68,6 +68,10 @@ height: 38em;
 overflow: auto;
 }
 
+#fetchImage {
+  height:7em;
+  width:7em;
+}
 /*#wrapper .glyphicon {
 position: absolute;
 width:2em;
